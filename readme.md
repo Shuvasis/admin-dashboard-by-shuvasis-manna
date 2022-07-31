@@ -1,3 +1,5 @@
+Please rename the root folder too assignment.
+
 Admin can login through id->'admin' and password->'admin123'.
 
 Employee can login through unique employee id as id and password is own mobile number.
