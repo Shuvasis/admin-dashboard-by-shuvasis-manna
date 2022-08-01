@@ -16,7 +16,9 @@
                 if($this->session->userdata('a_id'))
                 {
                     ?>
-                    <li class="text-decoration-none"><a href="<?= base_url('admin/logout'); ?>" class="btn btn-danger">Logout</a></li>
+                    <ul class="list-style-type: none;">
+                        <li><a href="<?= base_url('admin/logout'); ?>" class="btn btn-danger">Logout</a></li>
+                    </ul>
                     
                     <?php
                 }

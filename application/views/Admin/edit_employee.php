@@ -47,9 +47,9 @@
             <label for="gender">Gender</label>
             <select name="gender" value="<?php echo set_value('gender'); ?>" class="form-control w-50">
                 <option value="Select">Select</option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="Others">Others</option>
+                <option <?php if($data['gender'] == "Male"){echo "selected";} ?> value="Male">Male</option>
+                <option <?php if($data['gender'] == "Female"){echo "selected";} ?> value="Female">Female</option>
+                <option <?php if($data['gender'] == "Others"){echo "selected";} ?> value="Others">Others</option>
             </select>
         </div>
         <?php echo form_error('gender') ?>
